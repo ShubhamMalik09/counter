@@ -1,0 +1,48 @@
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #344151;
+    gap: 2.5rem;
+}
+
+.counter{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1px 5px;
+}
+
+#heading{
+    color: #0398d4;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn{
+    background-color: white;
+    border: none; 
+    cursor: pointer;
+}
+
+.btn-left{
+    border-right: 1px solid #bfbfbf;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.btn-right{
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-left: 1px solid #bfbfbf;
+}
+
+#count{
+    font-weight: 500;
+    padding: 0px 5px;
+}
